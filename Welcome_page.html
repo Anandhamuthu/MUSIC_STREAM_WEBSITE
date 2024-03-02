@@ -1,0 +1,347 @@
+<html>
+<head>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  height:100%;
+  width:100%;
+  background:url('https://drive.google.com/uc?export=view&id=1euiZNblW9OrIXz8kqz-NOqYdGH84oktG') no-repeat;
+  background-size:cover;
+  background-position:center;
+  animation:animateBg 5s linear infinite;
+
+}
+@keyframes animateBg {
+  100% {
+    filter:hue-rotate(360deg);
+  }
+}
+.login-box {
+  position: relative;
+  width:400px;
+  height: 450px;
+  background: transparent;
+  border-radius: 15px;
+  border: 2px solid rgba(255,255,255,.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(15px);
+}
+h2 {
+  font-size:2em;
+  color:#fff;
+  text-align:center;
+
+}
+.input-box {
+  position:relative;
+  width:310px;
+  margin:30px 0;
+  border-bottom:1px solid #fff;
+}
+.input-box label {
+  position:absolute;
+  top:50%;
+  left:5px;
+  transform:translateY(-50%);
+  font-size:1em;
+  color:#fff;
+  pointer-events:none;
+  transition:.5s;
+}
+.input-box input:focus  ~ label,
+.input-box input:valid  ~ label {
+  top:-5px;
+}
+.input-box input {
+  width:100%;
+  height:50px;
+  background:transparent;
+  border:none;
+  outline:none;
+  font-size:1em;
+  color:#fff;
+  padding:0 35px 0 5px;
+}
+.input-box .icon {
+  position:absolute;
+  right:8px;
+  top:50%;
+  color: #fff;
+  transform: translateY(-50%);
+}
+.remember-forgot {
+  margin:-15px 0 15px;
+  font-size:.9em;
+  color:#fff;
+  display:flex;
+  justify-content:space-between;
+}
+.remember-forgot label input {
+  margin-right:3px;
+}
+.remember-forgot a {
+  color:#fff;
+  text-decoration:none;
+}
+.remember-forgot a:hover {
+  text-decoration:underline;
+}
+button {
+  width:100%;
+  height:40px;
+  background-color:#fff;
+  border:none;
+  border-radius:40px;
+  cursor:pointer;
+  font-size:1em;
+  color:#000;
+  font-weight;500;
+}
+.register-link {
+  font-size:.9em;
+  color:#fff;
+  text-align:center;
+  margin:25px 0 10px;
+}
+.register-link p a {
+  color:#fff;
+  text-decoration:none;
+  font-weight:600;
+}
+.register-link p a:hover {
+  text-decoration:underline;
+}
+@media (max-width:500px) {
+  .login-box {
+    width:100%;
+    height:100%;
+    border:none;
+    border-radius:0;
+  }
+  .input-box {
+    width:290px;
+  }
+}
+    /* Cursor */
+    .txt-type > .txt {
+      border-right: 0.2rem solid white;
+    }
+
+  @media(min-width: 1200px) {
+      h1 {
+        font-size: 3rem;
+      }
+    }
+
+    @media(max-width: 800px) {
+      .container {
+        padding: 0 1rem;
+      }
+
+      h1 {
+        font-size: 4rem;
+      }
+    }
+
+    @media(max-width: 500px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+      .text1 { 
+
+            color: white; 
+
+            font-size: 70px; 
+
+            font-weight: 700; 
+
+            letter-spacing: 8px; 
+
+            margin-bottom: 20px; 
+
+            position: relative;
+
+            animation: text 3s 1; 
+
+        } 
+
+  
+
+        .text2 {
+      font-size: 30px; 
+
+            color: darkgreen; 
+
+            font-family: Georgia, serif; 
+        } 
+
+  
+
+        @keyframes text { 
+
+            0% { 
+
+                color: black; 
+
+                margin-bottom: -40px; 
+
+            } 
+
+  
+
+            30% { 
+
+                letter-spacing: 25px; 
+
+                margin-bottom: -40px; 
+
+            } 
+
+  
+
+            85% { 
+
+                letter-spacing: 8px; 
+
+                margin-bottom: -40px; 
+
+            } 
+
+        } 
+</style>
+</head>
+<body  style="backdrop-filter: blur(15px);">  
+<div class="wrapper">
+   <div class="col-12" style="  width: 100%; height: 100%;
+  "> 
+  <div style="border: 2px solid #a49d9d;padding: 2%; background: transparent;backdrop-filter: blur(15px);height: 100%;">
+  <div class="row" style="
+    text-align: center;
+    margin-top: 8%;
+">
+ <div class="row" style="width: 100%;">
+  <div style="width: 100%;" >
+ 
+
+ <span class="text1">BEST MUSIC FOR EVERYBODY</span>
+
+  <span style="font-size: 50PX;color: white;font-style: times new roman;font-weight: 800;padding-left: 50px;
+"  class="txt-type" data-wait="3000" data-words='["BEST MUSIC FOR EVERYBODY","CREATED BY BUGS SLAYERS"]'></span>
+
+</div>
+</div>
+
+<br>
+<div class="row" style="width: 100%; ">
+<div style=" width: 100%;" >
+<h3 style="
+    color: white;
+    font-size: 30px;padding-left: 50px;
+">Music speaks to the heart in ways words cannot express.</h3>
+</div>
+</div>
+
+ <div class="row" style="width: 100%;display: flex;margin-left: 14%;">
+
+  <div style="width: 33%;/*! height: 122%; */margin-left: 3%;margin-right: -9%;">
+    <a href="pavi3.html" class="btn btn-success" style="width: 40%; margin-left: 41%; margin-top: 5%;font-size: 30px;">Login </a>
+  </div>
+   <div style="width: 33%;/*! height: 122%; */">
+    <a href="register.html"  class="btn btn-primary" style="width: 40%;margin-top: 5%;font-size: 30px;">Register</a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<script type="text/javascript">class TypeWriter {
+      constructor(txtElement, words, wait = 3000) {
+        this.txtElement = txtElement;
+        this.words = words;
+        this.txt = '';
+        this.wordIndex = 0;
+        this.wait = parseInt(wait, 8);
+        this.type();
+        this.isDeleting = false;
+      }
+
+      type() {
+        // Current index of word
+        const current = this.wordIndex % this.words.length;
+        // Get full text of current word
+        const fullTxt = this.words[current];
+
+        // Check if deleting
+        if(this.isDeleting) {
+          // Remove char
+          this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+          // Add char
+          this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        // Insert txt into element
+        this.txtElement.innerHTML = <span class="txt">${this.txt}</span>;
+
+        // change color for data-text
+        this.txtElement.innerHTML = <span class="txt" style="color: yellow;">${this.txt}</span>;
+
+        // Initial Type Speed
+        let typeSpeed = 100;
+
+        if(this.isDeleting) {
+          typeSpeed /= 2;
+        }
+
+        // If word is complete
+        if(!this.isDeleting && this.txt === fullTxt) {
+          // Make pause at end
+          typeSpeed = this.wait;
+          // Set delete to true
+          this.isDeleting = true;
+        } else if(this.isDeleting && this.txt === '') {
+          this.isDeleting = false;
+          // Move to next word
+          this.wordIndex++;
+          // Pause before start typing
+          typeSpeed = 300;
+        }
+
+        setTimeout(() => this.type(), typeSpeed);
+      }
+    }
+
+    // Init On DOM Load
+    document.addEventListener('DOMContentLoaded', init);
+
+    // Init App
+    function init() {
+      const txtElement = document.querySelector('.txt-type');
+      const words = JSON.parse(txtElement.getAttribute('data-words'));
+      const wait = txtElement.getAttribute('data-wait');
+      // Init TypeWriter
+      new TypeWriter(txtElement, words, wait);
+    }</script>
+</body></html>
